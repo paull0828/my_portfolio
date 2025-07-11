@@ -393,6 +393,68 @@
   color: var(--primary-color);
 }
 
+/* Add to style.css */
+.internship-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+.internship-details h3 {
+  margin-bottom: 0.5rem;
+}
+.internship-details ul {
+  margin: 0.5rem 0 0 1.5rem;
+  list-style: disc;
+}
+/* ...existing code... */
+.internship {
+  padding: 6rem 2rem;
+  background: var(--light-color);
+}
+.internship-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.internship-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+.internship-card {
+  flex: 1;
+  min-width: 250px;
+  background: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.internship-card i {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+.internship-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+}
+.internship-card p {
+  font-size: 0.95rem;
+  color: #6b7280;
+  margin-bottom: 0.5rem;
+}
+.internship-duration {
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+.internship-card ul {
+  margin: 0.5rem 0 0 1.5rem;
+  list-style: disc;
+}
+/* ...existing code... */
+
 /* responsive design */
 @media (max-width: 780px) {
   .nav-links {
